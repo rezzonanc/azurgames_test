@@ -1,0 +1,29 @@
+{
+  "__version__": "1.0.6",
+  "physics": {
+    "collisionGroups": [],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 0
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "general": {
+    "designResolution": {
+      "fitWidth": false,
+      "fitHeight": false,
+      "width": 1280,
+      "height": 1280
+    }
+  },
+  "layer": [
+    {
+      "name": "units",
+      "value": 524288
+    },
+    {
+      "name": "uiOverUnits",
+      "value": 262144
+    }
+  ]
+}

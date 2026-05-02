@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "ef84221d-6585-47b8-97aa-1a279fdff558",
+  "files": [],
+  "subMetas": {
+    "80c75": {
+      "importer": "gltf-mesh",
+      "uuid": "ef84221d-6585-47b8-97aa-1a279fdff558@80c75",
+      "displayName": "",
+      "id": "80c75",
+      "name": "Mesh.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 112
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "ef84221d-6585-47b8-97aa-1a279fdff558@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fa188": {
+      "importer": "gltf-scene",
+      "uuid": "ef84221d-6585-47b8-97aa-1a279fdff558@fa188",
+      "displayName": "",
+      "id": "fa188",
+      "name": "ElfArcher_Bow.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ef84221d-6585-47b8-97aa-1a279fdff558@80c75"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ef84221d-6585-47b8-97aa-1a279fdff558@9d093"
+      ],
+      "scenes": [
+        "ef84221d-6585-47b8-97aa-1a279fdff558@fa188"
+      ]
+    }
+  }
+}

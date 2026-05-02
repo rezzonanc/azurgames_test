@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "3450002e-728f-4435-95d3-d39e9bda8bf4",
+  "files": [],
+  "subMetas": {
+    "2e991": {
+      "importer": "gltf-mesh",
+      "uuid": "3450002e-728f-4435-95d3-d39e9bda8bf4@2e991",
+      "displayName": "",
+      "id": "2e991",
+      "name": "Circle.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 408
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6c855": {
+      "importer": "gltf-material",
+      "uuid": "3450002e-728f-4435-95d3-d39e9bda8bf4@6c855",
+      "displayName": "",
+      "id": "6c855",
+      "name": "Orc.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3c6cb": {
+      "importer": "gltf-scene",
+      "uuid": "3450002e-728f-4435-95d3-d39e9bda8bf4@3c6cb",
+      "displayName": "",
+      "id": "3c6cb",
+      "name": "Orc_Axe.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3450002e-728f-4435-95d3-d39e9bda8bf4@2e991"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3450002e-728f-4435-95d3-d39e9bda8bf4@6c855"
+      ],
+      "scenes": [
+        "3450002e-728f-4435-95d3-d39e9bda8bf4@3c6cb"
+      ]
+    }
+  }
+}

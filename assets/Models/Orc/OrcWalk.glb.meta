@@ -1,0 +1,115 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8b75b947-5565-4c41-aea5-b9d44cfa3ee8",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "74915": {
+      "importer": "gltf-scene",
+      "uuid": "8b75b947-5565-4c41-aea5-b9d44cfa3ee8@74915",
+      "displayName": "",
+      "id": "74915",
+      "name": "OrcWalk.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18d6f": {
+      "importer": "gltf-animation",
+      "uuid": "8b75b947-5565-4c41-aea5-b9d44cfa3ee8@18d6f",
+      "displayName": "",
+      "id": "18d6f",
+      "name": "Walk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.0416666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "f9d1d": {
+      "importer": "gltf-skeleton",
+      "uuid": "8b75b947-5565-4c41-aea5-b9d44cfa3ee8@f9d1d",
+      "displayName": "",
+      "id": "f9d1d",
+      "name": "Armature.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 156
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1.0416666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Walk",
+            "from": 0,
+            "to": 1.0416666269302368,
+            "wrapMode": 2,
+            "previousId": "18d6f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [
+        "8b75b947-5565-4c41-aea5-b9d44cfa3ee8@f9d1d"
+      ],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "8b75b947-5565-4c41-aea5-b9d44cfa3ee8@74915"
+      ]
+    }
+  }
+}
