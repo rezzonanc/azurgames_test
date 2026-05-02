@@ -58,7 +58,7 @@
           },
           "physics": {
             "_value": true,
-            "_option": "physics-ammo"
+            "_option": "physics-builtin"
           },
           "physics-ammo": {
             "_value": true,
@@ -110,7 +110,7 @@
             "_value": false
           },
           "geometry-renderer": {
-            "_value": true
+            "_value": false
           },
           "debug-renderer": {
             "_value": false
@@ -190,9 +190,7 @@
             "_value": false
           }
         },
-        "flags": {
-          "LOAD_BULLET_MANUALLY": false
-        },
+        "flags": {},
         "includeModules": [
           "2d",
           "3d",
@@ -200,13 +198,12 @@
           "audio",
           "base",
           "custom-pipeline",
-          "geometry-renderer",
           "gfx-webgl",
           "graphics",
           "mask",
           "meshopt",
           "particle",
-          "physics-ammo",
+          "physics-builtin",
           "skeletal-animation",
           "tween",
           "ui"

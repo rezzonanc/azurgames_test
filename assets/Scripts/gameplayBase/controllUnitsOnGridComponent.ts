@@ -75,7 +75,7 @@ export class controllUnitsOnGridComponent extends Component {
     }
 
     private onTouchEnd(state: string, pos: Vec2) {
-        audioManager.play("dropUnit")
+        
         this.drop()
     }
 
@@ -85,6 +85,7 @@ export class controllUnitsOnGridComponent extends Component {
             audioManager.play("merge")
         }
         else if (this.closestCell && this.unitDragged) {
+            audioManager.play("dropUnit")
             this.gridComp.placeUnitOnCell(this.unitDragged, this.closestCell)
         }
 
@@ -143,7 +144,7 @@ export class controllUnitsOnGridComponent extends Component {
 
                 if (!this.unitDragged && getUnit) {
                     this.setUnitDrag(hitNode)
-                    audioManager.play("pickUnit")
+                    
                 }
 
                 const isCellFree = this.gridComp.checkCellIsFree(cellComp.id[0], cellComp.id[1])
@@ -176,7 +177,7 @@ export class controllUnitsOnGridComponent extends Component {
         
             if(unitComp.curCell[0] == cellId[0] && unitComp.curCell[1] == cellId[1]){
                 this.unitDragged = unitComp
-                
+                audioManager.play("pickUnit")
             }
         })
     }

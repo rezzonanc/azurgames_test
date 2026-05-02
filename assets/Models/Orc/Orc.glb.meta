@@ -36,7 +36,7 @@
       "userData": {
         "gltfIndex": 0,
         "wrapMode": 1,
-        "sample": 30,
+        "sample": 24,
         "span": {
           "from": 0,
           "to": 2.125
@@ -65,7 +65,7 @@
       "userData": {
         "gltfIndex": 1,
         "wrapMode": 1,
-        "sample": 30,
+        "sample": 24,
         "span": {
           "from": 0.32130583291201237,
           "to": 2.8333332538604736
@@ -88,7 +88,7 @@
       "userData": {
         "gltfIndex": 2,
         "wrapMode": 2,
-        "sample": 30,
+        "sample": 24,
         "span": {
           "from": 0,
           "to": 2.375
@@ -165,7 +165,8 @@
             "from": 0,
             "to": 2.125,
             "wrapMode": 1,
-            "previousId": "2cd1c"
+            "previousId": "2cd1c",
+            "fps": 24
           }
         ]
       },
@@ -179,7 +180,8 @@
             "from": 0.32130583291201237,
             "to": 2.8333332538604736,
             "wrapMode": 1,
-            "previousId": "ca7e4"
+            "previousId": "ca7e4",
+            "fps": 24
           }
         ]
       },
@@ -193,7 +195,8 @@
             "from": 0,
             "to": 2.375,
             "wrapMode": 2,
-            "previousId": "c2696"
+            "previousId": "c2696",
+            "fps": 24
           }
         ]
       }
@@ -245,7 +248,7 @@
     },
     "meshSimplify": {
       "enable": true,
-      "targetRatio": 0.5
+      "targetRatio": 0.4
     }
   }
 }

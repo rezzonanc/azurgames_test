@@ -10,6 +10,35 @@
     "__original-animation-3.bin"
   ],
   "subMetas": {
+    "13282": {
+      "importer": "gltf-animation",
+      "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@13282",
+      "displayName": "",
+      "id": "13282",
+      "name": "Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.875
+        },
+        "events": [
+          {
+            "frame": 0.5333333333333333,
+            "func": "onShoot",
+            "params": []
+          }
+        ]
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
     "a62fe": {
       "importer": "gltf-mesh",
       "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@a62fe",
@@ -46,60 +75,14 @@
       ],
       "subMetas": {}
     },
-    "e4391": {
+    "c14bd": {
       "importer": "gltf-animation",
-      "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@e4391",
+      "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@c14bd",
       "displayName": "",
-      "id": "e4391",
-      "name": "Victory.animation",
-      "userData": {
-        "gltfIndex": 0,
-        "wrapMode": 22,
-        "sample": 30,
-        "span": {
-          "from": 0,
-          "to": 1.3333333730697632
-        },
-        "events": []
-      },
-      "ver": "1.0.18",
-      "imported": true,
-      "files": [
-        ".bin"
-      ],
-      "subMetas": {}
-    },
-    "c2696": {
-      "importer": "gltf-animation",
-      "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@c2696",
-      "displayName": "",
-      "id": "c2696",
-      "name": "Idle.animation",
-      "userData": {
-        "gltfIndex": 1,
-        "wrapMode": 2,
-        "sample": 30,
-        "span": {
-          "from": 0,
-          "to": 1.2833333015441895
-        },
-        "events": []
-      },
-      "ver": "1.0.18",
-      "imported": true,
-      "files": [
-        ".bin"
-      ],
-      "subMetas": {}
-    },
-    "ca7e4": {
-      "importer": "gltf-animation",
-      "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@ca7e4",
-      "displayName": "",
-      "id": "ca7e4",
+      "id": "c14bd",
       "name": "Death.animation",
       "userData": {
-        "gltfIndex": 2,
+        "gltfIndex": 1,
         "wrapMode": 1,
         "sample": 30,
         "span": {
@@ -115,27 +98,44 @@
       ],
       "subMetas": {}
     },
-    "2cd1c": {
+    "c6d0a": {
       "importer": "gltf-animation",
-      "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@2cd1c",
+      "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@c6d0a",
       "displayName": "",
-      "id": "2cd1c",
-      "name": "Attack.animation",
+      "id": "c6d0a",
+      "name": "Idle.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.25
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "e4391": {
+      "importer": "gltf-animation",
+      "uuid": "d72d8397-9095-46ae-8888-898b3cbd1f1c@e4391",
+      "displayName": "",
+      "id": "e4391",
+      "name": "Victory.animation",
       "userData": {
         "gltfIndex": 3,
         "wrapMode": 1,
         "sample": 30,
         "span": {
           "from": 0,
-          "to": 0.8999999761581421
+          "to": 1.3333333730697632
         },
-        "events": [
-          {
-            "frame": 0.5666666666666667,
-            "func": "onShoot",
-            "params": []
-          }
-        ]
+        "events": []
       },
       "ver": "1.0.18",
       "imported": true,
@@ -198,35 +198,21 @@
     "imageMetas": [],
     "animationImportSettings": [
       {
-        "name": "Victory",
-        "duration": 1.3333333730697632,
+        "name": "Attack.001",
+        "duration": 0.875,
         "fps": 30,
         "splits": [
           {
-            "name": "Victory",
+            "name": "Attack",
             "from": 0,
-            "to": 1.3333333730697632,
-            "wrapMode": 22,
-            "previousId": "e4391"
+            "to": 0.875,
+            "wrapMode": 1,
+            "previousId": "13282"
           }
         ]
       },
       {
-        "name": "Idle",
-        "duration": 1.2833333015441895,
-        "fps": 30,
-        "splits": [
-          {
-            "name": "Idle",
-            "from": 0,
-            "to": 1.2833333015441895,
-            "wrapMode": 2,
-            "previousId": "c2696"
-          }
-        ]
-      },
-      {
-        "name": "Death",
+        "name": "Death.001",
         "duration": 1.5833333730697632,
         "fps": 30,
         "splits": [
@@ -235,21 +221,35 @@
             "from": 0,
             "to": 1.5833333730697632,
             "wrapMode": 1,
-            "previousId": "ca7e4"
+            "previousId": "c14bd"
           }
         ]
       },
       {
-        "name": "Attack",
-        "duration": 0.8999999761581421,
+        "name": "Idle.001",
+        "duration": 1.25,
         "fps": 30,
         "splits": [
           {
-            "name": "Attack",
+            "name": "Idle",
             "from": 0,
-            "to": 0.8999999761581421,
+            "to": 1.25,
+            "wrapMode": 2,
+            "previousId": "c6d0a"
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Victory",
+            "from": 0,
+            "to": 1.3333333730697632,
             "wrapMode": 1,
-            "previousId": "2cd1c"
+            "previousId": "e4391"
           }
         ]
       }
@@ -302,7 +302,7 @@
     },
     "meshSimplify": {
       "enable": true,
-      "targetRatio": 0.4
+      "targetRatio": 0.35
     }
   }
 }

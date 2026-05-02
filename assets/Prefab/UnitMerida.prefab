@@ -5094,20 +5094,20 @@
         "__expectedType__": "cc.AnimationClip"
       },
       {
-        "__uuid__": "d72d8397-9095-46ae-8888-898b3cbd1f1c@c2696",
+        "__uuid__": "d72d8397-9095-46ae-8888-898b3cbd1f1c@c6d0a",
         "__expectedType__": "cc.AnimationClip"
       },
       {
-        "__uuid__": "d72d8397-9095-46ae-8888-898b3cbd1f1c@ca7e4",
+        "__uuid__": "d72d8397-9095-46ae-8888-898b3cbd1f1c@13282",
         "__expectedType__": "cc.AnimationClip"
       },
       {
-        "__uuid__": "d72d8397-9095-46ae-8888-898b3cbd1f1c@2cd1c",
+        "__uuid__": "d72d8397-9095-46ae-8888-898b3cbd1f1c@c14bd",
         "__expectedType__": "cc.AnimationClip"
       }
     ],
     "_defaultClip": {
-      "__uuid__": "d72d8397-9095-46ae-8888-898b3cbd1f1c@c2696",
+      "__uuid__": "d72d8397-9095-46ae-8888-898b3cbd1f1c@e4391",
       "__expectedType__": "cc.AnimationClip"
     },
     "_useBakedAnimation": false,
