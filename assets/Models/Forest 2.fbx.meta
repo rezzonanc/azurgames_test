@@ -1367,6 +1367,29 @@
     "dumpMaterials": false,
     "useVertexColors": false,
     "promoteSingleRootNode": false,
-    "materialDumpDir": "db://assets/Materials"
+    "materialDumpDir": "db://assets/Materials",
+    "meshCompress": {
+      "encode": false,
+      "compress": false,
+      "quantize": false,
+      "enable": false
+    },
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "generateLightmapUVNode": false,
+    "meshOptimizer": {
+      "enable": false,
+      "algorithm": "simplify",
+      "simplifyOptions": {
+        "targetRatio": 1,
+        "enableSmartLink": true,
+        "agressiveness": 7,
+        "maxIterationCount": 100
+      }
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0.6
+    }
   }
 }

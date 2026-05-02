@@ -4964,7 +4964,7 @@
       "__id__": 145
     },
     "postSettings": {
-      "__id__": 147
+      "__id__": 146
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
@@ -5109,15 +5109,8 @@
     "_showProbe": true,
     "_showWireframe": true,
     "_showConvex": false,
-    "_data": {
-      "__id__": 146
-    },
+    "_data": null,
     "_lightProbeSphereVolume": 1
-  },
-  {
-    "__type__": "cc.LightProbesData",
-    "_probes": [],
-    "_tetrahedrons": []
   },
   {
     "__type__": "cc.PostSettingsInfo",

@@ -140,7 +140,7 @@
             "_value": false
           },
           "light-probe": {
-            "_value": true
+            "_value": false
           },
           "tiled-map": {
             "_value": false
@@ -203,7 +203,6 @@
           "geometry-renderer",
           "gfx-webgl",
           "graphics",
-          "light-probe",
           "mask",
           "meshopt",
           "particle",

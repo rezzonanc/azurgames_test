@@ -27,21 +27,27 @@
       ],
       "subMetas": {}
     },
-    "c2696": {
+    "2cd1c": {
       "importer": "gltf-animation",
-      "uuid": "46509c73-4c40-4b0c-8cb4-565591021429@c2696",
+      "uuid": "46509c73-4c40-4b0c-8cb4-565591021429@2cd1c",
       "displayName": "",
-      "id": "c2696",
-      "name": "Idle.animation",
+      "id": "2cd1c",
+      "name": "Attack.animation",
       "userData": {
         "gltfIndex": 0,
-        "wrapMode": 2,
+        "wrapMode": 1,
         "sample": 30,
         "span": {
           "from": 0,
-          "to": 2.375
+          "to": 2.125
         },
-        "events": []
+        "events": [
+          {
+            "frame": 0.8333333333333334,
+            "func": "onShoot",
+            "params": []
+          }
+        ]
       },
       "ver": "1.0.18",
       "imported": true,
@@ -73,27 +79,21 @@
       ],
       "subMetas": {}
     },
-    "2cd1c": {
+    "c2696": {
       "importer": "gltf-animation",
-      "uuid": "46509c73-4c40-4b0c-8cb4-565591021429@2cd1c",
+      "uuid": "46509c73-4c40-4b0c-8cb4-565591021429@c2696",
       "displayName": "",
-      "id": "2cd1c",
-      "name": "Attack.animation",
+      "id": "c2696",
+      "name": "Idle.animation",
       "userData": {
         "gltfIndex": 2,
-        "wrapMode": 1,
+        "wrapMode": 2,
         "sample": 30,
         "span": {
           "from": 0,
-          "to": 2.125
+          "to": 2.375
         },
-        "events": [
-          {
-            "frame": 0.8333333333333334,
-            "func": "onShoot",
-            "params": []
-          }
-        ]
+        "events": []
       },
       "ver": "1.0.18",
       "imported": true,
@@ -156,16 +156,16 @@
     "imageMetas": [],
     "animationImportSettings": [
       {
-        "name": "Idle",
-        "duration": 2.375,
+        "name": "Attack",
+        "duration": 2.125,
         "fps": 30,
         "splits": [
           {
-            "name": "Idle",
+            "name": "Attack",
             "from": 0,
-            "to": 2.375,
-            "wrapMode": 2,
-            "previousId": "c2696"
+            "to": 2.125,
+            "wrapMode": 1,
+            "previousId": "2cd1c"
           }
         ]
       },
@@ -184,16 +184,16 @@
         ]
       },
       {
-        "name": "Attack",
-        "duration": 2.125,
+        "name": "Idle",
+        "duration": 2.375,
         "fps": 30,
         "splits": [
           {
-            "name": "Attack",
+            "name": "Idle",
             "from": 0,
-            "to": 2.125,
-            "wrapMode": 1,
-            "previousId": "2cd1c"
+            "to": 2.375,
+            "wrapMode": 2,
+            "previousId": "c2696"
           }
         ]
       }
@@ -230,6 +230,22 @@
       "scenes": [
         "46509c73-4c40-4b0c-8cb4-565591021429@011d6"
       ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshOptimize": {
+      "enable": false,
+      "vertexCache": false,
+      "vertexFetch": false,
+      "overdraw": false
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0.5
     }
   }
 }
